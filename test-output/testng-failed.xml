@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [MFG Suite]" parallel="tests">
+  <parameter name="browser" value="IE"/>
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <test name="MUMSWEBFLOW(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.volvo.mfg.test.TestMUMSWEBPages">
+        <methods>
+          <include name="endTest"/>
+          <include name="afterMethods"/>
+          <include name="setUp"/>
+          <include name="MUMSWEBHome" invocation-numbers="0"/>
+          <include name="cleanUp"/>
+          <include name="startTest"/>
+          <include name="InitTestMethod"/>
+        </methods>
+      </class> <!-- com.volvo.mfg.test.TestMUMSWEBPages -->
+    </classes>
+  </test> <!-- MUMSWEBFLOW(failed) -->
+</suite> <!-- Failed suite [MFG Suite] -->

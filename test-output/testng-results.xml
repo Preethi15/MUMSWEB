@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MFG Suite" duration-ms="54288" started-at="2018-12-21T04:34:03Z" finished-at="2018-12-21T04:34:58Z">
+    <groups>
+    </groups>
+    <test name="MUMSWEBFLOW" duration-ms="54288" started-at="2018-12-21T04:34:03Z" finished-at="2018-12-21T04:34:58Z">
+      <class name="com.volvo.mfg.test.TestMUMSWEBPages">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.volvo.mfg.test.TestMUMSWEBPages@6f1fba17]" name="startTest" is-config="true" duration-ms="304" started-at="2018-12-21T10:04:03Z" finished-at="2018-12-21T10:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.volvo.mfg.test.TestMUMSWEBPages@6f1fba17]" name="setUp" is-config="true" duration-ms="161" started-at="2018-12-21T10:04:04Z" finished-at="2018-12-21T10:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InitTestMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.volvo.mfg.test.TestMUMSWEBPages@6f1fba17]" name="InitTestMethod" is-config="true" duration-ms="10615" started-at="2018-12-21T10:04:04Z" finished-at="2018-12-21T10:04:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.volvo.mfg.test.TestMUMSWEBPages.MUMSWEBHome(java.util.LinkedHashMap) throws java.io.IOException,java.lang.InterruptedException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitTestMethod -->
+        <test-method status="PASS" signature="MUMSWEBHome(java.util.LinkedHashMap)[pri:0, instance:com.volvo.mfg.test.TestMUMSWEBPages@6f1fba17]" name="MUMSWEBHome" duration-ms="41430" started-at="2018-12-21T10:04:15Z" data-provider="TestDataProvider" finished-at="2018-12-21T10:04:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC_No=TC_01, TestCase_Name=MUMSWEBHome, Execution_Status=Yes, UserName=RR, Password=8c1_022f@@v3ocNj, Expected=LMC on Display - Home, StationNo=103, Factory=TV, BanstationNo=100, NoofSerials=200, Balance=500, PickTime=15, RedTime=5, GreenTime=30, Show=10, DisplayName=TV}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MUMSWEBHome -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.volvo.mfg.test.TestMUMSWEBPages@6f1fba17]" name="afterMethods" is-config="true" duration-ms="697" started-at="2018-12-21T10:04:56Z" finished-at="2018-12-21T10:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.volvo.mfg.test.TestMUMSWEBPages@6f1fba17]" name="cleanUp" is-config="true" duration-ms="852" started-at="2018-12-21T10:04:57Z" finished-at="2018-12-21T10:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.volvo.mfg.test.TestMUMSWEBPages@6f1fba17]" name="endTest" is-config="true" duration-ms="3" started-at="2018-12-21T10:04:58Z" finished-at="2018-12-21T10:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.volvo.mfg.test.TestMUMSWEBPages -->
+    </test> <!-- MUMSWEBFLOW -->
+  </suite> <!-- MFG Suite -->
+</testng-results>
